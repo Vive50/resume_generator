@@ -162,7 +162,7 @@ def index():
         # Send the modified PDF document as an attachment to the user
         return send_file(modified_pdf_path, as_attachment=True)
 
-    return render_template("index.html")
+    return render_template("vive50.github.io/resume.html")
 
 
 if __name__ == '__main__':
